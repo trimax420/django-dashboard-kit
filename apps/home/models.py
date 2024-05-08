@@ -13,4 +13,5 @@ class UploadFile(models.Model):
     laz_file = models.FileField(upload_to='media/laz/')
     obj_file = models.FileField(upload_to='media/obj/')
     kml_file = models.FileField(upload_to='media/kml/')
+    pdf_file = models.FileField(upload_to='media/pdf/')
 
